@@ -47,16 +47,16 @@ Before starting, ensure that you have the following tools installed:
 - DELETE /posts/:id : Deletes a user by their ID.
 
 Project Structure
-	```
-	├── models
-	│   └── dbconfig.js  
-	│   └── postModel.js            # MongoDB model for posts
-	├── routes
-	│   └── postRoutes.js      # API routes for user operations
-	├── server.js              # Main entry point to the app
-	├── .env                   # MongoDB connection URI
-	└── package.json           # Project dependencies and scripts
-
+```
+├── models
+│   └── dbconfig.js  
+│   └── postModel.js            # MongoDB model for posts
+├── routes
+│   └── postRoutes.js      # API routes for user operations
+├── server.js              # Main entry point to the app
+├── .env                   # MongoDB connection URI
+└── package.json           # Project dependencies and scripts
+````
 
 ## Contributing
 Feel free to fork this project, submit issues, or send pull requests. If you have any suggestions or improvements, please open an issue!
