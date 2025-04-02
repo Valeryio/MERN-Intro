@@ -30,17 +30,17 @@ Before starting, ensure that you have the following tools installed:
 
 3. Create a .env file at the root of the project to configure your MongoDB connection:
 	```
-	MONGO_URI=mongodb://localhost:27017/your-database-name
+	MONGO_URI=mongodb://localhost:27017/node-api
 
 4. Start the application:
 	```
 	npm start
-	// The application will be accessible at http://localhost:3000.
+	// The application will be accessible at http://localhost:8080.
 
 ## API Routes
 - GET /posts : Retrieves a list of all users.
 
-- POST /posts : Creates a new user. (e.g., { "name": "John Doe", "email": "john@example.com" })
+- POST /posts : Creates a new user. (e.g., { "name": "John Doe", "description": "I am John DOE" })
 
 - PUT /posts/:id : Updates a user by their ID.
 
