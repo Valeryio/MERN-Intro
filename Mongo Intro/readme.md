@@ -25,22 +25,19 @@ Before starting, ensure that you have the following tools installed:
 
 2. Install the dependencies:
 
-````
-npm install
+	````
+	npm install
 
 
-
-Create a .env file at the root of the project to configure your MongoDB connection:
-```
-MONGO_URI=mongodb://localhost:27017/your-database-name
-```
+3. Create a .env file at the root of the project to configure your MongoDB connection:
+	```
+	MONGO_URI=mongodb://localhost:27017/your-database-name
 
 
-Start the application:`
-```
-npm start
-```
-The application will be accessible at http://localhost:3000.
+4. Start the application:`
+	```
+	npm start
+	// The application will be accessible at http://localhost:3000.
 
 
 ## API Routes
