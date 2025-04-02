@@ -28,17 +28,14 @@ Before starting, ensure that you have the following tools installed:
 	````
 	npm install
 
-
 3. Create a .env file at the root of the project to configure your MongoDB connection:
 	```
 	MONGO_URI=mongodb://localhost:27017/your-database-name
 
-
-4. Start the application:`
+4. Start the application:
 	```
 	npm start
 	// The application will be accessible at http://localhost:3000.
-
 
 ## API Routes
 - GET /posts : Retrieves a list of all users.
@@ -50,15 +47,15 @@ Before starting, ensure that you have the following tools installed:
 - DELETE /posts/:id : Deletes a user by their ID.
 
 Project Structure
-```
-├── models
-│   └── dbconfig.js  
-│   └── postModel.js            # MongoDB model for posts
-├── routes
-│   └── postRoutes.js      # API routes for user operations
-├── server.js              # Main entry point to the app
-├── .env                   # MongoDB connection URI
-└── package.json           # Project dependencies and scripts
+	```
+	├── models
+	│   └── dbconfig.js  
+	│   └── postModel.js            # MongoDB model for posts
+	├── routes
+	│   └── postRoutes.js      # API routes for user operations
+	├── server.js              # Main entry point to the app
+	├── .env                   # MongoDB connection URI
+	└── package.json           # Project dependencies and scripts
 
 
 ## Contributing
