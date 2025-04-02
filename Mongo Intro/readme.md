@@ -19,15 +19,15 @@ Before starting, ensure that you have the following tools installed:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/express-mongo-crud.git
-   cd express-mongo-crud
-	```
+   git clone https://github.com/Valeryio/MERN-Intro
+   cd MERN-Intro
 
-Install the dependencies:
+
+2. Install the dependencies:
 
 ````
 npm install
-```
+
 
 
 Create a .env file at the root of the project to configure your MongoDB connection:
